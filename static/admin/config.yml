@@ -1,6 +1,6 @@
 backend:
-  name: gitlab
-  repo: shoji-mochiduki/blog-c # GitHubのリポジトリ　「https://github.com/」の後ろの部分
+  name: github
+  repo: burugaria7/myblog # GitHubのリポジトリ　「https://github.com/」の後ろの部分
   branch: master
 
 media_folder: "static/img" # Folder where user uploaded files should go
