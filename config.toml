@@ -5,7 +5,7 @@ disqusShortname = ""
 paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
-googleAnalytics = "G-E8N7DPL3MK"
+googleAnalytics = "UA-198136102-1"
 
 [params]
   title       = "Hugo Casper Two"
