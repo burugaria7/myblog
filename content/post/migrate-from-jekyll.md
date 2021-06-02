@@ -1,13 +1,14 @@
 ---
-date: 2014-03-10
-linktitle: Migrating from Jekyll
 nomenu:
   main:
     parent: tutorials
-prev: /tutorials/mathjax
 title: Migrate to Hugo from Jekyll
-noweight: 10
+date: 2014-03-10
 image: img/team.jpg
+draft: true
+prev: /tutorials/mathjax
+noweight: 10
+linktitle: Migrating from Jekyll
 ---
 
 ## Move static content to `static`
