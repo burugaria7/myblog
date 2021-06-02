@@ -2,6 +2,7 @@
 title: 鍵盤に降ってくる動画を楽譜化(midi化)
 date: 2021-05-30T22:54:52+09:00
 image: /img/welcome.jpg
+description: YouTubeにある鍵盤にノーツが降ってくる動画を解析し、midiファイルとして出力する。
 tags:
   - MIDI
   - Synthesia
