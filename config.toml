@@ -1,4 +1,4 @@
-baseurl         = "/"
+baseurl         = "/post/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
@@ -8,27 +8,27 @@ canonifyurls    = true
 googleAnalytics = "UA-198136102-1"
 
 [params]
-  title       = "Hugo Casper Two"
-  subtitle    = "Port of Casper 2.x for Hugo"
-  copyright   = "© 2018"
+  title       = "Re-blog"
+  subtitle    = "Retasu's portfolio site"
+  copyright   = "© 2021"
 
   cover       = "img/blog-cover.jpg"
-  description = "Here is a description of your site."
+  description = "This is Retasu's portfolio"
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
   RSSLink = ""
 
-  twitterName = "faketryghost"
-  fbName = "fakeghost"
-  githubName = "eueung"
-  linkedinName = "eueung"
-  mediumName = ""
+  twitterName = "burugaria2"
+  fbName = "retasu.oisii"
+  githubName = "burugaria7"
+  # linkedinName = "eueung"
+  # mediumName = ""
 
-  logo = "hugo-logo.png"
-  orgName = "EM"
-  orgWebsite = "https://www.telematika.org"
-  orgDescription = "Here is a description placeholder for your org"
+  #logo = "hugo-logo.png"
+  orgName = "Re"
+  #orgWebsite = "https://www.telematika.org"
+  #orgDescription = "Here is a description placeholder for your org"
 
   showSupport = true
 
@@ -48,7 +48,7 @@ googleAnalytics = "UA-198136102-1"
 
 [[menu.main]]
   name = "Home"
-  url = "/"
+  url = "/post/"
   weight = 200
 
 [[menu.main]]
