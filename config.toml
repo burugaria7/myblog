@@ -1,4 +1,4 @@
-baseurl         = "/"
+baseurl         = "https://retasu-blog.netlify.app/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
@@ -28,7 +28,7 @@ googleAnalytics = "UA-198136102-1"
   #logo = "hugo-logo.png"
   orgName = "Re"
   #orgWebsite = "https://www.telematika.org"
-  #orgDescription = "Here is a description placeholder for your org"
+  #orgDescription = "This is Retasu's portfolio"
 
   showSupport = true
 
