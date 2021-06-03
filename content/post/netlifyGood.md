@@ -22,7 +22,7 @@ midiファイル(SMF)で出力できれば、それをSynthesiaに読み込ま�
 ## 今回 ”もと”となる動画について
 
 以下の動画は自分が以前YouTubeにアップロードしたものです。
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/0GULQZ_ONCk/0.jpg)](https://www.youtube.com/watch?v=0GULQZ_ONCk)
+{{< youtube 0GULQZ_ONCk >}}
 
 この動画は、midiファイル(SMF形式)をSynthesiaというプログラム(アプリケーション)に読み込ませて、その画面をキャプチャしたものです。このような動画を解析するのが目標です。
 
