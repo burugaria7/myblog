@@ -38,17 +38,17 @@ midiファイル(SMF)で出力できれば、それをSynthesiaに読み込ま�
 細かい実装はGitのURLを貼っておくので、そちらをご覧ください。
 すごく読みにくいコードだと自負しているのでご注意を😌
 
-{{< urlcard "GitHubへのリンク" "https://github.com/burugaria7/makeSMF">}}
+{{< BlogCard "GitHubへのリンク" "https://github.com/burugaria7/makeSMF">}}
 
 自分がコード実装時に書きなぐったメモも参考に貼っておきます。（~~参考になるとは言ってない~~）
 
 Googleドキュメントのメモ
 
-{{< urlcard "Googleドキュメントのメモ" "https://docs.google.com/document/d/1t9L9b_ICyIiXoWTtuOj_yHkG_1TiLLVhf1YhXYlwCNM/edit?usp=sharing">}}
+{{< BlogCard "Googleドキュメントのメモ" "https://docs.google.com/document/d/1t9L9b_ICyIiXoWTtuOj_yHkG_1TiLLVhf1YhXYlwCNM/edit?usp=sharing">}}
 
 Googleドキュメントのメモ
 
-{{< urlcard "Google図形描画のメモ" "https://docs.google.com/drawings/d/1XgYOstmYxNJl2NMCJ76BKYRAbH8ErLW4F2I7503au4k/edit?usp=sharing">}}
+{{< BlogCard "Google図形描画のメモ" "https://docs.google.com/drawings/d/1XgYOstmYxNJl2NMCJ76BKYRAbH8ErLW4F2I7503au4k/edit?usp=sharing">}}
 
 # OpenCVによる動画解析
 
