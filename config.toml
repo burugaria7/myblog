@@ -44,7 +44,7 @@ googleAnalytics = "UA-198136102-1"
   singleViewStyle = "casper"
 
 [permalinks]
-  post = "/post/:slug/"
+   post = "post/:slug"
 
 [[menu.main]]
   name = "Home"
