@@ -40,7 +40,6 @@ midiファイル(SMF)で出力できれば、それをSynthesiaに読み込ま�
 
 {{< urlcard "GitHubへのリンク" "https://github.com/burugaria7/makeSMF">}}
 
-
 自分がコード実装時に書きなぐったメモも参考に貼っておきます。（~~参考になるとは言ってない~~）
 
 Googleドキュメントのメモ

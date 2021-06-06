@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Synthesia on</title><link>https://retasu-blog.netlify.app/tags/synthesia/</link><description>Recent content in Synthesia on</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sun, 30 May 2021 22:54:52 +0900</lastBuildDate><atom:link href="https://retasu-blog.netlify.app/tags/synthesia/index.xml" rel="self" type="application/rss+xml"/><item><title>鍵盤に降ってくる動画を楽譜化(midi化)</title><link>https://retasu-blog.netlify.app/post/%E9%8D%B5%E7%9B%A4%E3%81%AB%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%8F%E3%82%8B%E5%8B%95%E7%94%BB%E3%82%92%E6%A5%BD%E8%AD%9C%E5%8C%96midi%E5%8C%96/</link><pubDate>Sun, 30 May 2021 22:54:52 +0900</pubDate><guid>https://retasu-blog.netlify.app/post/%E9%8D%B5%E7%9B%A4%E3%81%AB%E9%99%8D%E3%81%A3%E3%81%A6%E3%81%8F%E3%82%8B%E5%8B%95%E7%94%BB%E3%82%92%E6%A5%BD%E8%AD%9C%E5%8C%96midi%E5%8C%96/</guid><description>やりたいこと YouTubeにある鍵盤にノーツが降ってくる動画を解析し、midiファイルとして出力する。 midiファイル(SMF)で出力できれば、それをSynthesiaに読み込ませてうはうはしたり、 別途プログラムを使用すれば楽譜（ドとかレとかの）に変換できる。
+今回 ”もと”となる動画について 以下の動画は自分が以前YouTubeにアップロードしたものです。
+この動画は、midiファイル(SMF形式)をSynthesiaというプログラム(アプリケーション)に読み込ませて、その画面をキャプチャしたものです。このような動画を解析するのが目標です。
+どのように実装するか 実装は大きく分けて、
+OpenCVによる動画解析 解析したデータをSMF形式で書き出す という２段階に分けることができる。
+細かい実装はGitのURLを貼っておくので、そちらをご覧ください。 すごく読みにくいコードだと自負しているのでご注意を😌
+自分がコード実装時に書きなぐったメモも参考に貼っておきます。（参考になるとは言ってない）
+Googleドキュメントのメモ
+Googleドキュメントのメモ
+OpenCVによる動画解析 動画解析&amp;hellip;以前にプログラミング自体ほぼほぼ素人な私ですが、 チュートリアルなどを見ながらどうにか実装することができるレベルでした。
+OpenCVによる解析の流れ 黒鍵、白鍵それぞれの座標を設定する。 初期状態（どの鍵盤も押されていない状態）の黒鍵、白鍵それぞれのRGB値を記録する。 フレームごとに画像を呼び出し、最初に記録したRGB値からの変化を監視する。（変化があれば鍵盤が押されていると判定） 動画の準備 まず解析する動画の準備をする。 ここは何でもいいのですが、自分の環境ではちょうちょ（童謡）のmidiファイルを適当にDAWで作成し、 それをSynthesiaで読み込ませて、その様子をキャプチャしました。
+それらをプロジェクトフォルダ内に配置した様子↓
+画面キャプチャは設定を複数用意し、YouTubeでいう1080p,720p,480pの３種類を使用した。
+YouTubeから動画をほげほげしてきて、それを使用ということも可能だが、 著作権など色々あると思うのその際は注意しましょう。
+解析する鍵盤の座標設定 座標設定の難しさは、読み込ませる動画の解像度、鍵盤がいくつ表示されているか、 によって座標が変わってくる点である。 解像度はいうまでもなく、表示される鍵盤数は、 Synthesiaの設定や読み込ませるmidiファイルによって変わってしまう。
+それらを踏まえ座標設定は、以下のような方法が考えられた。
+OpenCVを使って鍵盤部分を探し出し、自動的に設定する プログラム実行後マニュアル（ユーザー操作）で設定する。 最初から座標を定義したプリセットを用意しておく。 とりあえず、一番楽そうなプリセットを準備してみる。 例えば、以下のコードでは720p88鍵表示として白鍵の座標をゴリゴリ設定している。 黒鍵部分は一定間隔に配置されている訳ではないので、もっと汚いコードになっていたりする&amp;hellip;
+this-&amp;gt;key_white_y = 665; for (int i = 0; i &amp;lt; 52; i++) { this-&amp;gt;key_white_x[i] = (24.</description></item></channel></rss>
