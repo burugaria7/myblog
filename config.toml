@@ -48,7 +48,7 @@ googleAnalytics = "UA-198136102-1"
 
 [[menu.main]]
   name = "Home"
-  url = "/post/"
+  url = "/"
   weight = 200
 
 [[menu.main]]
