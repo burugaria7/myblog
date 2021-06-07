@@ -7,10 +7,11 @@ paginate        = 6
 canonifyurls    = true
 googleAnalytics = "UA-198136102-1"
 
+
 [params]
   title       = "Re-blog"
   subtitle    = "Retasu's portfolio site"
-  copyright   = "© 2021"
+  copyright   = "© 2021" 
 
   cover       = "img/blog-cover.jpg"
   description = "This is Retasu's portfolio"
