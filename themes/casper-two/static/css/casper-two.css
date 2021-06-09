@@ -73,4 +73,16 @@
 
 .post-full-content pre code {
     color: #e5eff5;
-}    
+}  
+
+.sidebar {
+    float: right;
+}
+
+.post-group{
+    float: left;
+}
+
+.inner{
+    max-width: 1400px;
+}
