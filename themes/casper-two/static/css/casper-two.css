@@ -71,16 +71,23 @@
     }
 }
 
+@media (max-width: 1500px){
+    .sidebar {
+        display: none !important;
+    }
+}
+
+
 .post-full-content pre code {
     color: #e5eff5;
-}  
-
-.sidebar {
-    float: right;
-}
+} 
 
 .post-group{
     float: left;
+}
+
+.sidebar {
+    float: right;
 }
 
 .inner{
