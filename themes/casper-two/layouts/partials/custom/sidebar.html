@@ -1,21 +1,3 @@
 <div class="sidebar">
-    <div class="profile">
-        <h4 class="sidebar-header">プロフィール</h4>
-        <img class="avatar-image" src="/images/avatar.png" alt="みどりみち">
-        <a href="{{ .Site.BaseURL }}about">
-            <h4 class="to-profile">みどり　みち</h4>
-        </a>
-        <p>駆け出しソフトウェアエンジニア。</p>
-        <p>デザインに凝りがち。</p>
-        <p>歌うことが好きで、声オタク。</p>
-    </div>
-    {{- if .IsPage -}}
-    {{ $enableTOC := .Params.toc | default .Site.Params.enableTOC -}}
-    {{- if $enableTOC -}}
-    <div class="sidebar-toc">
-        <h4 class="sidebar-header">目次</h4>
-        {{- .TableOfContents -}}
-    </div>
-    {{- end -}}
-    {{- end -}}
+    {{ partial "custom/toc.html" . }}
 </div>

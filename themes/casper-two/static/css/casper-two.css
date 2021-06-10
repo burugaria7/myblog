@@ -99,3 +99,22 @@
 .inner{
     max-width: 1400px;
 }
+
+.sidebar-toc {
+    position: fixed;
+    top: 80px;
+    right: 70px;
+    opacity: 0;             // 透過度を0にして非表示
+    pointer-events: none;   // リンクを無効に
+    transition: opacity 0.5s ease-in-out;
+    &.show {
+        opacity: 1;             // 透過度を1にして表示
+        pointer-events: auto;   // リンクを有効に
+    }
+}
+
+.page-template .site-main, .post-template .site-main {
+    padding-bottom: 4vw;
+    background: #dde5e8;
+
+}

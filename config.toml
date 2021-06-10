@@ -11,7 +11,7 @@ googleAnalytics = "UA-198136102-1"
     [markup.tableOfContents]
         endLevel = 2
         ordered = true
-        startLevel = 2
+        startLevel = 1
 
 [params]
   title       = "Re-blog"
