@@ -75,7 +75,7 @@
     float: left;
 }
 
-@media (max-width: 1500px){
+@media (max-width: 1600px){
     .sidebar {
         display: none !important;
     }
@@ -101,16 +101,19 @@
 }
 
 .sidebar-toc {
+    background-color: rgba(255, 255, 255, 0.514);
     position: fixed;
-    top: 80px;
-    right: 70px;
-    opacity: 0;             // 透過度を0にして非表示
-    pointer-events: none;   // リンクを無効に
+    top: 10%;
+    right: 5%;
+    opacity: 0;
+    pointer-events: none;
     transition: opacity 0.5s ease-in-out;
-    &.show {
-        opacity: 1;             // 透過度を1にして表示
-        pointer-events: auto;   // リンクを有効に
-    }
+    font-size: 0.85vw;
+}
+
+.sidebar-toc.showw {
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .page-template .site-main, .post-template .site-main {
