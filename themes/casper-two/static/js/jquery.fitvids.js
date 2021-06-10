@@ -83,9 +83,6 @@
     });
   };
 
-  var toc = document.getElementsByClassName('sidebar-toc')[0];
-  window.scrollY > 1000 ? toc.classList.add('show') : toc.classList.remove('show');
-
   
 
   // Internal counter for unique video names.
