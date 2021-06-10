@@ -71,9 +71,16 @@
     }
 }
 
+.post-group{
+    float: left;
+}
+
 @media (max-width: 1500px){
     .sidebar {
         display: none !important;
+    }
+    .post-group{
+    float: none;
     }
 }
 
@@ -82,12 +89,11 @@
     color: #e5eff5;
 } 
 
-.post-group{
-    float: left;
-}
+
 
 .sidebar {
     float: right;
+    top: 0;
 }
 
 .inner{

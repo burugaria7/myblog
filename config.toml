@@ -7,6 +7,11 @@ paginate        = 6
 canonifyurls    = true
 googleAnalytics = "UA-198136102-1"
 
+[markup]
+    [markup.tableOfContents]
+        endLevel = 2
+        ordered = true
+        startLevel = 2
 
 [params]
   title       = "Re-blog"
