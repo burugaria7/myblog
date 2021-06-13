@@ -20,6 +20,7 @@
       ignore: null
     };
 
+
     if(!document.getElementById('fit-vids-style')) {
       // appendStyles: https://github.com/toddmotto/fluidvids/blob/master/dist/fluidvids.js
       var head = document.head || document.getElementsByTagName('head')[0];
@@ -81,6 +82,8 @@
       });
     });
   };
+
+  
 
   // Internal counter for unique video names.
   $.fn.fitVids._count = 0;

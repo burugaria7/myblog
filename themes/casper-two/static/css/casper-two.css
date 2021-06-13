@@ -71,6 +71,53 @@
     }
 }
 
+.post-group{
+    float: left;
+}
+
+@media (max-width: 1600px){
+    .sidebar {
+        display: none !important;
+    }
+    .post-group{
+    float: none;
+    }
+}
+
+
 .post-full-content pre code {
     color: #e5eff5;
-}    
+} 
+
+
+
+.sidebar {
+    float: right;
+    top: 0;
+}
+
+.inner{
+    max-width: 1400px;
+}
+
+.sidebar-toc {
+    background-color: rgba(255, 255, 255, 0.514);
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease-in-out;
+    font-size: 0.85vw;
+}
+
+.sidebar-toc.showw {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.page-template .site-main, .post-template .site-main {
+    padding-bottom: 4vw;
+    background: #dde5e8;
+
+}
