@@ -14,7 +14,7 @@ googleAnalytics = "UA-198136102-1"
         startLevel = 1
 
 [params]
-  title       = "大学生の見聞録"
+  title       = "Sawaki's page"
   subtitle    = ""
   copyright   = "© 2021" 
 
@@ -38,11 +38,11 @@ googleAnalytics = "UA-198136102-1"
 
   showSupport = true
 
-  author = "大学生A"
+  author = "Sawaki Oku"
   authorAvatar = "img/ghost-icon.png"
   authorLocation = "Bandung, ID"
-  authorWebsite = "https://eueung.github.io"
-  authorDescription = "Your description here"
+  authorWebsite = "https://github.com/burugaria7"
+  authorDescription = ""
 
   pageNotFoundTitle = "404 - Page not found"
 
