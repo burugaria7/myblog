@@ -2,7 +2,7 @@ baseurl         = "https://retasu-blog.netlify.app/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
-paginate        = 6
+paginate        = 4
 #SectionPagesMenu = "main"
 canonifyurls    = true
 googleAnalytics = "UA-198136102-1"
@@ -22,7 +22,7 @@ googleAnalytics = "UA-198136102-1"
   description = ""
   metaDescription = ""
   googleAnalytics = ""
-  customCSS = []
+  customCSS = ["css/custom-font.css"]
   RSSLink = ""
 
   twitterName = ""
