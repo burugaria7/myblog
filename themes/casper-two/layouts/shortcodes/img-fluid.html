@@ -1,0 +1,3 @@
+<!-- image fluid -->
+<img src="{{ .Get "src" }}" {{ if or (.Get "alt") (.Get "caption") }}alt="{{ with .Get "alt"}}{{.}}{{else}}{{ .Get "caption" }}{{ end }}"{{ end }} class="img-fluid" />
+<!-- image fluid -->

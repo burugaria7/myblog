@@ -12,7 +12,7 @@ tags:
   - OpenCV
   - C++
 categories:
-  - プログラミング
+  - 技術
 ---
 # やりたいこと
 
