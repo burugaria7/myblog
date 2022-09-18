@@ -1,7 +1,7 @@
 ---
 title: "WSLでMagentaを使ったピアノ耳コピの自動化"
 date: 2022-08-01T18:11:47+09:00
-image: /img/Google-Magenta.png
+image: /img/cover/Google-Magenta.png
 description: WSLでMagentaを使ったピアノ耳コピの自動化
 slug: magenta
 tags:
