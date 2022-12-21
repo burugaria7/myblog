@@ -1,7 +1,7 @@
 ---
 title: "YouTubeのピアノ演奏動画の全自動採譜（MIDI化）"
 date: 2022-09-18T16:11:12+09:00
-draft: true
+draft: false
 image: /img/cover/midis.png
 description: WSLでMagentaを使ったピアノ耳コピの自動化ouTube のチャンネルを指定することで、そのチャンネルに上がっている演奏動画を一括 MIDI ファイルに変換する便利な道具を作成しました。
 slug: youtube_to_magenta
